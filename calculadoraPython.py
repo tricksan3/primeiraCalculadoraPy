@@ -24,7 +24,7 @@ caixaTexto = Entry(window, font=("Comic Sans MS",30), width=11, bg="black", fg="
 #caixaTexto = Text(window, height=2, width=37, font=("Comic Sans MS", 10))
 caixaTexto.grid(row=0,column=0, columnspan=4)
 
-bApagar = Button(window, text="AC", height=3, width=20, bg="blue", fg="white", command=apaga)
+bApagar = Button(window, text="AC", height=3, width=20, bg="red", fg="white", command=apaga)
 bApagar.grid(row=1, column=0, columnspan=2)
 bBackspace = Button(window, text="<-", height=3, width=9, bg="blue", fg="white", command=backspace)
 bBackspace.grid(row=1, column= 2)
